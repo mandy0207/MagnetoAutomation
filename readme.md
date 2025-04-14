@@ -51,7 +51,7 @@ Failures within a journey do not stop the test — all test steps continue execu
 A custom Retry Analyzer is configured to re-execute failed test cases automatically to reduce flaky test impact. This ensures that transient or environment-specific issues do not affect the overall test result.
 
 📸 Reports & Screenshots
-📁 Reports are generated under /test-output/ directory.
+📁 Reports are generated under /Extent Reports directory.
 
 🖼 Failed test cases are captured with screenshots, embedded within the HTML Extent Report for easy debugging.
 
