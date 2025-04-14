@@ -44,9 +44,9 @@ mvn test -PMagnetoParallel -DbrowserName=chrome
 🧪 Test Automation Strategy
 ✅ Test cases are structured into 2 core automation journeys:
 
-1. Order & Returns Form Validations — covering all combinations of input validations, error messages, and dropdown-based form logic.
+1. **Order & Returns Form Validations** — covering all combinations of input validations, error messages, and dropdown-based form logic.
 
-2. Signup Form Validations — covering all edge cases, mandatory fields, invalid formats, and message validations.
+2. **Signup Form Validations** — covering all edge cases, mandatory fields, invalid formats, and message validations.
 
     Each journey combines a group of test cases to simulate user flows and increase coverage.
 
