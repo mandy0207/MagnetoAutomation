@@ -29,6 +29,10 @@ Make sure the following are installed and configured on your machine:
 ▶️ Running the Tests
 Execute the following command in terminal or command prompt:
 
+2. Navigate to the root project directory:
+cd your-repo-name
+
+
 ## Command to run test suite
  ```bash
 mvn test -PMagnetoParallel -DbrowserName=chrome
