@@ -44,15 +44,15 @@ mvn test -PMagnetoParallel -DbrowserName=chrome
 🧪 Test Automation Strategy
 ✅ Test cases are structured into 2 core automation journeys:
 
-Order & Returns Form Validations — covering all combinations of input validations, error messages, and dropdown-based form logic.
+1. Order & Returns Form Validations — covering all combinations of input validations, error messages, and dropdown-based form logic.
 
-Signup Form Validations — covering all edge cases, mandatory fields, invalid formats, and message validations.
+2. Signup Form Validations — covering all edge cases, mandatory fields, invalid formats, and message validations.
 
-Each journey combines a group of test cases to simulate user flows and increase coverage.
+    Each journey combines a group of test cases to simulate user flows and increase coverage.
 
-In case of any failure, the execution continues, and the status of each test case is individually logged in the report.
+    In case of any failure, the execution continues, and the status of each test case is individually logged in the report.
 
-This strategy improves reliability, reduces execution time, and delivers full test coverage without interruptions.
+    This strategy improves reliability, reduces execution time, and delivers full test coverage without interruptions.
 
 🔁 Retry Analyzer
 A custom Retry Analyzer is configured to re-execute failed test cases automatically to reduce flaky test impact. This ensures that transient or environment-specific issues do not affect the overall test result.
