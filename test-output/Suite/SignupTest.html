@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>TestNG:  SignupTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SignupTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 14 15:35:16 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>147 seconds (147888 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Jobsity.tests.SignupTest.verifySignupFormErrorMsgs()'><b>verifySignupFormErrorMsgs</b><br>Test class: com.Jobsity.tests.SignupTest<br>Parameters: {empty-FirstName =MagnetoUser(email=webautomation25160426516@yopmail.com, password=Testing@12345, firstName=, lastName=Kasandra, confirmPassword=Testing@12345, errorMsg=This is a required field.), empty-LastName=MagnetoUser(email=webautomation25160443516@yopmail.com, password=Testing@12345, firstName=Chase, lastName=, confirmPassword=Testing@12345, errorMsg=This is a required field.), empty-Email=MagnetoUser(email=, password=Testing@12345, firstName=Josh, lastName=Darby, confirmPassword=Testing@12345, errorMsg=This is a required field.), invalid-Email=MagnetoUser(email=abc@yopmail., password=Testing@12345, firstName=Letisha, lastName=Val, confirmPassword=Testing@12345, errorMsg=Please enter a valid email address (Ex: johndoe@domain.com).), empty-Password=MagnetoUser(email=webautomation25160453616@yopmail.com, password=, firstName=Laticia, lastName=Lyda, confirmPassword=Testing@12345, errorMsg=This is a required field.), empty-ConfirmPassword=MagnetoUser(email=webautomation25160456216@yopmail.com, password=Testing@12345, firstName=Janeth, lastName=Reynalda, confirmPassword=, errorMsg=This is a required field.), minimum-LengthPassword=MagnetoUser(email=webautomation25160461716@yopmail.com, password=abc, firstName=Tomasa, lastName=Julianna, confirmPassword=Testing@12345, errorMsg=Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.), alphaNumeric-Password=MagnetoUser(email=webautomation25160463816@yopmail.com, password=abcyy123, firstName=Sung, lastName=Cordell, confirmPassword=Testing@12345, errorMsg=Minimum of different classes of characters in password is 3. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.)}</td>
+<td></td>
+<td>146</td>
+<td>com.Jobsity.tests.SignupTest@609e8838</td></tr>
+</table><p>
+</body>
+</html>

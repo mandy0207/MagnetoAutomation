@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T15:44:10 IST" name="Suite" finished-at="2025-04-14T15:46:26 IST" duration-ms="135858">
+    <groups>
+    </groups>
+    <test started-at="2025-04-14T15:44:10 IST" name="OrderReturnTest" finished-at="2025-04-14T15:45:41 IST" duration-ms="90313">
+      <class name="com.Jobsity.tests.OrderReturnTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Jobsity.tests.OrderReturnTest@233795b6]" started-at="2025-04-14T15:44:10 IST" name="Setup" finished-at="2025-04-14T15:44:20 IST" duration-ms="10158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyOrderReturnFormMsgs()[pri:0, instance:com.Jobsity.tests.OrderReturnTest@233795b6]" started-at="2025-04-14T15:44:20 IST" name="verifyOrderReturnFormMsgs" finished-at="2025-04-14T15:45:40 IST" duration-ms="79916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderReturnFormMsgs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Jobsity.tests.OrderReturnTest@233795b6]" started-at="2025-04-14T15:45:40 IST" name="tearDown" finished-at="2025-04-14T15:45:41 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Jobsity.tests.OrderReturnTest -->
+    </test> <!-- OrderReturnTest -->
+    <test started-at="2025-04-14T15:44:10 IST" name="SignupTest" finished-at="2025-04-14T15:46:26 IST" duration-ms="135858">
+      <class name="com.Jobsity.tests.SignupTest">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.Jobsity.tests.SignupTest@79d8407f]" started-at="2025-04-14T15:44:10 IST" name="suiteSetup" finished-at="2025-04-14T15:44:10 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Jobsity.tests.SignupTest@79d8407f]" started-at="2025-04-14T15:44:11 IST" name="Setup" finished-at="2025-04-14T15:44:18 IST" duration-ms="7620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifySignupFormErrorMsgs(java.util.LinkedHashMap)[pri:0, instance:com.Jobsity.tests.SignupTest@79d8407f]" started-at="2025-04-14T15:44:18 IST" name="verifySignupFormErrorMsgs" data-provider="getData" finished-at="2025-04-14T15:46:26 IST" duration-ms="127463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{empty-FirstName =MagnetoUser(email=webautomation25110410111@yopmail.com, password=Testing@12345, firstName=, lastName=Bret, confirmPassword=Testing@12345, errorMsg=This is a required field.), empty-LastName=MagnetoUser(email=webautomation25110411311@yopmail.com, password=Testing@12345, firstName=Kenisha, lastName=, confirmPassword=Testing@12345, errorMsg=This is a required field.), empty-Email=MagnetoUser(email=, password=Testing@12345, firstName=Tonita, lastName=Polly, confirmPassword=Testing@12345, errorMsg=This is a required field.), invalid-Email=MagnetoUser(email=abc@yopmail., password=Testing@12345, firstName=Javier, lastName=Angila, confirmPassword=Testing@12345, errorMsg=Please enter a valid email address (Ex: johndoe@domain.com).), empty-Password=MagnetoUser(email=webautomation25110419711@yopmail.com, password=, firstName=Ismael, lastName=Summer, confirmPassword=Testing@12345, errorMsg=This is a required field.), empty-ConfirmPassword=MagnetoUser(email=webautomation25110422311@yopmail.com, password=Testing@12345, firstName=Alita, lastName=Kyle, confirmPassword=, errorMsg=This is a required field.), minimum-LengthPassword=MagnetoUser(email=webautomation25110427511@yopmail.com, password=abc, firstName=Tanesha, lastName=Allen, confirmPassword=Testing@12345, errorMsg=Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.), alphaNumeric-Password=MagnetoUser(email=webautomation25110430311@yopmail.com, password=abcyy123, firstName=Eldon, lastName=Evalyn, confirmPassword=Testing@12345, errorMsg=Minimum of different classes of characters in password is 3. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupFormErrorMsgs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Jobsity.tests.SignupTest@79d8407f]" started-at="2025-04-14T15:46:26 IST" name="tearDown" finished-at="2025-04-14T15:46:26 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Jobsity.tests.SignupTest -->
+    </test> <!-- SignupTest -->
+  </suite> <!-- Suite -->
+</testng-results>
