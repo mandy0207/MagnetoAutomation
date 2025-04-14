@@ -1,4 +1,4 @@
-# 🧪 Test Automation Framework for Web Browsers
+# 🧪 Selenium TestNG Maven Test Automation Framework for Web Browsers
 
 This Automation Framework supports **cross-browser testing** across major web browsers including **Chrome, Firefox, Edge, and Safari**. It is designed to execute tests both **sequentially and in parallel**, with robust reporting and failure-handling mechanisms.
 
