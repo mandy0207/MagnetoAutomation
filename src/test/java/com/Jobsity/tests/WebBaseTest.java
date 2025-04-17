@@ -39,8 +39,9 @@ public class WebBaseTest extends BaseTest {
 
 	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
-		Driver.quitDriver();
 		webBasePage.failSoftAssert();
+		Driver.quitDriver();
+		
 
 	}
 
